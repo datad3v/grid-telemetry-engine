@@ -1,0 +1,23 @@
+# Virtual Environments
+.venv/
+env/
+venv/
+
+# Environment Variables
+.env
+
+# Data Files & Local Databases
+data/raw/*
+data/processed/*
+*.duckdb
+*.duckdb.wal 
+!.gitkeep
+
+# dbt Artifacts
+dbt_grid_engine/target/
+dbt_grid_engine/dbt_packages/
+dbt_grid_engine/logs/
+
+# IDE / OS 
+.DS_Store
+.vscode/

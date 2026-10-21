@@ -1,0 +1,7 @@
+dbt_grid_engine:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../data/grid_engine.duckdb'
+      threads: 4
